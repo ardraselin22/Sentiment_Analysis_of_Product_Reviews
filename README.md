@@ -2,11 +2,20 @@
 Deployed app : https://sentimentanalysisofappuctreviews-ibsbwdzbzrapjcmypchsse.streamlit.app/
 ## Team Members
 
-| Name | Reg No |
-| --- | --- |
-| Ardra Selin A G | 253006 |
-| Sravana Nambiar | 253212 |
-| Archana T | 253205 |
+| Name | Reg No | Course |
+| --- | --- | ---|
+| Ardra Selin A G | 253006 | MSc. COMPUTER SCIENCE WITH SPECIALIZATION IN DATA ANALYTICS |
+| Sravana Nambiar | 253212 | MSc. DATA SCIENCE AND BIO AI |
+| Archana T | 253205 | MSc. DATA SCIENCE AND BIO AI |
+
+## 👥 Team
+
+| Member | Role |
+|--------|--------|
+| Ardra Selin A G | Led the end-to-end development of the project. Set up the complete repository structure including all folders (code/, models/, reports/, results/, Data/). Built and deployed the full Streamlit web application with 5 pages — Home, Single Review Prediction, Batch Prediction, Model Performance, and About. Trained and evaluated all 4 models (TF-IDF+SVM, TF-IDF+LR, DistilBERT, BERT) achieving best accuracy of 84.50% with DistilBERT. Created detailed README.md, Contributing.md, Project_Summary.md and .gitignore files. Added classification reports, app screenshots, and sample dataset files. Integrated model hosting via Google Drive for cloud deployment. |
+| Sravana Nambiar | |
+| Archana T | Trained  all 4 models (TF-IDF+SVM, TF-IDF+LR, DistilBERT, BERT) and successfully generated the model.pkl file for prediction and deployment purposes. Added requirements.txt to manage project dependencies and ensure smooth project setup across different environments.Also contributed to updating and improving the README.md file with project information and setup instructions.|
+
 
 ---
 
