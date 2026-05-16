@@ -15,34 +15,53 @@
 | Ardra Selin A G | Led the end-to-end development of the project. Set up the complete repository structure including all folders (code/, models/, reports/, results/, Data/). Built and deployed the full Streamlit web application with 5 pages — Home, Single Review Prediction, Batch Prediction, Model Performance, and About. Trained and evaluated all 4 models (TF-IDF+SVM, TF-IDF+LR, DistilBERT, BERT) achieving best accuracy of 84.50% with DistilBERT. Created detailed README.md, Contributing.md, Project_Summary.md and .gitignore files. Added classification reports, app screenshots, and sample dataset files. Integrated model hosting via Google Drive for cloud deployment. |
 | Sravana Nambiar |Performed data preprocessing and cleaning to improve dataset quality and prepare it for model training. Successfully deployed the application using Streamlit Streamlit for interactive predictions and user-friendly access. Also contributed to repository management and README documentation updates. Completed preprocessing tasks including handling missing values, feature preparation, and data transformation. Built and deployed the project interface using Streamlit Streamlit and assisted in maintaining the GitHub repository and project documentation.Worked on dataset preprocessing and prepared the project pipeline for deployment. Integrated the trained model into a Streamlit Streamlit web application and contributed to updating project files such as README.md and requirements.txt.Contributed to project development by performing preprocessing, organizing the repository structure, and deploying the machine learning application using Streamlit Streamlit. Also helped improve project documentation and setup instructions for easier collaboration.|
 | Archana T | Contributed to the machine learning pipeline by training, evaluating, and comparing all four models — TF-IDF+SVM, TF-IDF+Logistic Regression, DistilBERT, and BERT — to analyze model performance and optimize prediction accuracy. Successfully generated and integrated the `model.pkl` file for deployment and real-time prediction purposes. Managed project dependencies by creating and updating the `requirements.txt` file to ensure reproducibility and seamless environment setup across different systems. Also contributed to improving the project documentation by updating the `README.md` file with detailed project information, installation steps, usage instructions, and workflow explanations to support collaboration and easier project understanding.
-|
+
 
 
 ---
 
 ## Problem Statement
 
-Sentiment Analysis of product reviews is a critical Natural Language Processing (NLP) task that helps businesses understand customer opinions at scale. With the explosion of online reviews on platforms like Amazon, manually reading and categorizing feedback is impractical. This project aims to build a robust system that can automatically classify product reviews as **Positive**, **Neutral**, or **Negative** using machine learning and deep learning techniques.
+Sentiment Analysis has become one of the most important applications of Natural Language Processing (NLP) in today’s data-driven digital world. Every day, millions of users share their opinions, experiences, and feedback through online reviews on e-commerce platforms, social media, and discussion forums. For businesses, these reviews contain valuable insights about customer satisfaction, product quality, service efficiency, and overall user experience. However, manually analyzing such an enormous volume of textual data is time-consuming, inefficient, and often impractical. This creates the need for intelligent automated systems capable of understanding and classifying customer opinions accurately and efficiently.
 
-The project uses the **Amazon Fine Food Reviews** dataset and applies both traditional ML approaches (TF-IDF + SVM, TF-IDF + Logistic Regression) and state-of-the-art transformer models (BERT, DistilBERT) to compare performance across different methodologies.
+This project focuses on developing an advanced Sentiment Analysis system for product reviews using the **Amazon Fine Food Reviews** dataset. The system is designed to automatically classify customer reviews into three sentiment categories: **Positive**, **Neutral**, and **Negative**. By leveraging both traditional machine learning techniques and modern transformer-based deep learning architectures, the project aims to compare different NLP methodologies and identify the most effective approach for sentiment classification tasks.
 
-The project follows the complete data science lifecycle, including:
+The project begins with extensive data preprocessing and text cleaning operations to transform raw textual data into a structured format suitable for machine learning models. Since real-world review datasets often contain noise such as punctuation, stopwords, HTML tags, emojis, repeated characters, and inconsistent formatting, preprocessing plays a critical role in improving model performance. Various Natural Language Processing techniques such as tokenization, lowercasing, stopword removal, stemming, and lemmatization are applied to prepare the dataset for analysis and feature extraction.
 
-- Data preprocessing and text cleaning
-- Exploratory Data Analysis (EDA)
-- Feature extraction (TF-IDF, BERT embeddings)
-- Model development and comparison
-- Evaluation using classification metrics
+In addition to preprocessing, the project includes detailed Exploratory Data Analysis (EDA) to better understand the distribution and characteristics of the dataset. EDA helps uncover important patterns such as sentiment distribution, frequently occurring words, review lengths, and customer behavior trends. Visualization techniques including bar plots, word clouds, frequency distributions, and sentiment comparisons are used to derive meaningful insights from the data before model development.
+
+The project implements and compares both traditional and advanced NLP models. Traditional machine learning models such as **TF-IDF + Support Vector Machine (SVM)** and **TF-IDF + Logistic Regression (LR)** are used as baseline approaches because of their simplicity, efficiency, and strong performance on text classification tasks. Alongside these models, state-of-the-art transformer architectures including **BERT (Bidirectional Encoder Representations from Transformers)** and **DistilBERT** are trained and evaluated to leverage contextual language understanding and deep semantic representation capabilities.
+
+Transformer-based models have significantly improved NLP performance in recent years due to their ability to capture contextual relationships between words in a sentence. By comparing traditional feature-engineering-based models with transformer-based deep learning models, the project provides a comprehensive analysis of how different approaches perform in sentiment classification tasks involving real-world customer review data.
+
+The complete workflow follows a structured data science and machine learning pipeline, including:
+
+* Data collection and dataset preparation
+* Data preprocessing and text normalization
+* Exploratory Data Analysis (EDA)
+* Feature extraction using TF-IDF and transformer embeddings
+* Model training and hyperparameter tuning
+* Performance evaluation and comparison
+* Deployment preparation for real-time predictions
+
+The performance of all models is evaluated using multiple classification metrics such as **accuracy, precision, recall, F1-score, and confusion matrices** to ensure reliable and unbiased comparison. The final goal of the project is to identify the most accurate and efficient sentiment analysis model that can be deployed for automated review classification and customer feedback analysis in real-world applications.
 
 ---
 
 ## Objectives
 
-- Classify product reviews into Positive, Neutral, and Negative sentiments
-- Perform comprehensive text preprocessing and exploratory data analysis
-- Build and compare traditional ML models with transformer-based deep learning models
-- Identify the best-performing model based on accuracy and F1-score
-- Evaluate models using precision, recall, F1-score, and confusion matrices
+* Develop an automated Sentiment Analysis system capable of classifying product reviews into **Positive**, **Neutral**, and **Negative** sentiment categories.
+* Perform extensive data preprocessing and text cleaning to improve the quality and consistency of textual data before model training.
+* Conduct detailed Exploratory Data Analysis (EDA) to identify trends, patterns, and sentiment distributions within the dataset.
+* Apply Natural Language Processing techniques such as tokenization, stopword removal, stemming, and lemmatization for effective text processing.
+* Extract meaningful textual features using both traditional techniques like **TF-IDF** and advanced contextual embeddings from transformer models.
+* Build and compare traditional machine learning models including **TF-IDF + Support Vector Machine (SVM)** and **TF-IDF + Logistic Regression (LR)**.
+* Train and evaluate advanced transformer-based deep learning models such as **BERT** and **DistilBERT** for sentiment classification.
+* Compare the performance of all models using evaluation metrics including **accuracy, precision, recall, F1-score, and confusion matrices**.
+* Identify the best-performing model based on classification performance, computational efficiency, and generalization capability.
+* Prepare the trained model for deployment and real-time sentiment prediction applications.
+* Demonstrate how NLP and deep learning techniques can be applied to solve large-scale real-world business problems involving customer feedback analysis.
+
 
 ---
 
